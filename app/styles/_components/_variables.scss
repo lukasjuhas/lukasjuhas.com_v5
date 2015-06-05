@@ -1,0 +1,53 @@
+/* COLOURS */
+$col_dark_bg: #FFF;
+$col_grey: #8D8D8D;
+$col_text: #000000;
+
+/* colour scheme */
+$col_primary: #e7e1cf; //butter
+$col_secondary: #c5b282; //darker skin
+$col_tertiary: #3a68a8; //light blue
+$col_quaternary: #2b4156; //dark blue 
+
+/* FONTS */
+$font_main: 'Helvetica, Arial', sans-serif;
+$font_headline: 'Montserrat' ,sans-serif;
+$font-family-base: 'source-sans-pro' ,sans-serif;
+
+$font-size-base: 16px;
+$line-height-base: 1.3em;
+
+
+/* sizes */
+$size_small_base: 8px;
+$size_small: 1.4em;
+$size_small_fixed: 14px;
+$size_general: 1.6em;
+$size_general_fixed: 16px;
+$size_medium: 1.8em;
+$size_medium_fixed: 18px;
+$size_big: 2.1em;
+$size_big_fixed: 21px;
+
+/* */
+$button-size : 2.5rem;
+
+$general_radius: 2px;
+
+$transition_fast: .1s;
+$transition: .3s;
+$transition_medium: .75s;
+$transition_slow: 1s;
+
+$animation: 75s;
+
+$mobile: 				320px;
+$large-mobile: 			480px;
+$tablet: 				768px;
+$small-desktop:			1024px;
+$desktop: 				1280px;
+$large-desktop: 		1440px;
+
+$viewport-increment: 	1px;
+$centering-max: 		1700px;
+$centering-footer-max: 	1155px;

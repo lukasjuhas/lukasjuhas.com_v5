@@ -1,0 +1,249 @@
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-webkit-keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@-moz-keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@-webkit-keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fill-logo-dark {
+  from { fill: $col_dark_bg }
+  to { fill: $col_quaternary }
+}
+@-moz-keyframes fill-logo-dark {
+  from { fill: $col_dark_bg }
+  to { fill: $col_quaternary }
+}
+@-webkit-keyframes fill-logo-dark {
+  from { fill: $col_dark_bg }
+  to { fill: $col_quaternary}
+}
+
+@keyframes fill-logo-light {
+  from { fill: $col_quaternary }
+  to { fill: $col_dark_bg }
+}
+@-moz-keyframes fill-logo-light {
+  from { fill: $col_quaternary }
+  to { fill: $col_dark_bg }
+}
+@-webkit-keyframes fill-logo-light {
+  from { fill: $col_quaternary }
+  to { fill: $col_dark_bg}
+}
+
+@keyframes hide {
+  from { opacity: 1; }
+  to { opacity: 0; display: none;
+    visibility: hidden; }
+}
+@-moz-keyframes hide {
+  from { opacity: 1; }
+  to { opacity: 0; display: none;
+    visibility: hidden;}
+}
+@-webkit-keyframes hide {
+  from { opacity: 1; }
+  to { opacity: 0; display: none;
+    visibility: hidden;}
+}
+
+
+@-webkit-keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-o-keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+    @-webkit-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-o-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes film {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    -moz-transform: scale(1.25) rotate(0.3deg);
+    -webkit-transform: scale(1.25) rotate(0.3deg);
+    -o-transform: scale(1.25) rotate(0.3deg);
+    -ms-transform: scale(1.25) rotate(0.3deg);
+    transform: scale(1.25) rotate(0.3deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+}
+@-webkit-keyframes film {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    -moz-transform: scale(1.25) rotate(0.3deg);
+    -webkit-transform: scale(1.25) rotate(0.3deg);
+    -o-transform: scale(1.25) rotate(0.3deg);
+    -ms-transform: scale(1.25) rotate(0.3deg);
+    transform: scale(1.25) rotate(0.3deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+}
+@-o-keyframes film {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    -moz-transform: scale(1.25) rotate(0.3deg);
+    -webkit-transform: scale(1.25) rotate(0.3deg);
+    -o-transform: scale(1.25) rotate(0.3deg);
+    -ms-transform: scale(1.25) rotate(0.3deg);
+    transform: scale(1.25) rotate(0.3deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+}
+@keyframes film {
+  0% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    -moz-transform: scale(1.25) rotate(0.3deg);
+    -webkit-transform: scale(1.25) rotate(0.3deg);
+    -o-transform: scale(1.25) rotate(0.3deg);
+    -ms-transform: scale(1.25) rotate(0.3deg);
+    transform: scale(1.25) rotate(0.3deg);
+  }
+  100% {
+    -moz-transform: scale(1) rotate(0deg);
+    -webkit-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+}
