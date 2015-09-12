@@ -1,4 +1,1 @@
-lukasjuhas.com
-=========
-
-Time to make a nice site for myself.
+# lukasjuhas.com
