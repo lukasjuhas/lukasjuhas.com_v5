@@ -1,2 +1,3 @@
 gulpfile.js
 gulp/**/*.js
+src/js/vendor/**/*.js
