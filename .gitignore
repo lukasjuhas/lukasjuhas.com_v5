@@ -1,9 +1,5 @@
-node_modules
-bower_components
-public
-.tmp
-.sass-cache
-.idea
-dist
+node_modules/
+dist/
+.sass-cache/
+bower_components/
 npm-debug.log
-.DS_Store
