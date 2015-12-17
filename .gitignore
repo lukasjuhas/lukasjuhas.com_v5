@@ -3,3 +3,18 @@ dist/
 .sass-cache/
 bower_components/
 npm-debug.log
+.DS_Store
+
+wp/*
+!wp/wp-content/
+
+wp-content/*
+!wp/wp-content/mu-plugins/
+!wp/wp-content/plugins/
+!wp/wp-content/themes/
+
+# ignore these plugins
+wp/wp-content/plugins/hello.php
+
+# ignore specific themes
+wp/wp-content/themes/twenty*/

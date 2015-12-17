@@ -8,7 +8,7 @@ class Testing extends React.Component {
   render() {
     return (
       <div>
-        <h1>React Starter Kit.</h1>
+        <h1>lukasjuhas.com</h1>
         <Thing />
       </div>
     );
