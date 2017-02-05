@@ -1,5 +1,7 @@
 # lukasjuhas.com (v5)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukasjuhas/lukasjuhas.com_v5.svg)](https://greenkeeper.io/)
+
 My personal website.
 
 ## Installing
